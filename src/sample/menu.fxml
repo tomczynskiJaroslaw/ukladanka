@@ -1,0 +1,13 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import sample.Controller?>
+<?import sample.Exit?>
+<VBox fx:id="plansza" fx:controller="sample.Menu"
+      xmlns:fx="http://javafx.com/fxml" alignment="center" stylesheets="@Wyniki.css">
+    <Button fx:id="play" >GRAJ</Button>
+    <Button fx:id="wyniki">wyniki</Button>
+</VBox>

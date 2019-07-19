@@ -1,0 +1,15 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ScrollPane?>
+<VBox fx:controller="sample.Wyniki"
+      xmlns:fx="http://javafx.com/fxml" stylesheets="@Wyniki.css">
+    <Button fx:id="menu">menu</Button>
+    <ScrollPane fitToWidth="true" fitToHeight="true">
+        <GridPane fx:id="tablicaWynikow"  alignment="center">
+        </GridPane>
+    </ScrollPane>
+</VBox>
